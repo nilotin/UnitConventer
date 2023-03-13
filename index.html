@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Conventer</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="head">
+        <header>
+            <h1>Metric/Imperial Unit Conversion</h1>
+            <input id="input-el" type="text">
+            <div>
+                <button id="convert-btn">Convert</button>
+            </div>
+        </header>
+    </div>
+    <div class="main">
+        <section>
+            <article>
+                <div>
+                    <h3>
+                        Length (Meter/Feet)
+                    </h3>
+                    <div class="convert" id="meter">
+                        <p>0 meter = 0 feet ⎟ 0 feet = 0 meter</p>
+                    </div>
+                </div>
+            </article>
+            <article>               
+                    <div>
+                        <h3>
+                            Volume (Liters/Gallons)
+                        </h3>
+                
+                        <div id="liter">
+                            <p>0 liter = 0 gallon ⎟ 0 gallon = 0 liter</p>
+                        </div>
+                    </div>               
+            </article>
+            <article>
+                <div>
+                    <h3>
+                        Mass (Kilograms/Pounds)
+                    </h3>
+                    <div id="kilo">
+                        <p>0 kilo = 0 pound ⎟ 0 pound = 0 kilo</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </div>
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
